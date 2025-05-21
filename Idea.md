@@ -18,10 +18,20 @@ Tried idea:
     => Baseline 3.2, best model ~ 2.9
 - Trial 4:
     + Adding model of CatBoost with reduced feature sets
-    + Filter for very high value of COD (based on rolling z-score) & zeros
+    + Filter for very high/low value of COD (based on rolling z-score) & zeros
     + Also tried to increase trees & add early stopping (not work well)
     => Baseline: 3.1, best model ~ 2.77
 - Trial 5:
+    + Going back to only filter COD = 0
+    => Baseline: 3.2, best model ~ 2.9
+- Trial 6:
     + Use sine of time-related features
     + Use lags from 4-8 hours, with 30 min timestep
-    + Removing filter of high values, still filters for COD = 0
+    => Baseline: 3.22, best model ~ 2.9
+- Trial 7:
+    + Increase to use 4-12 hours, with 30 min timestep
+    + Try to reuse NH4 (has weird distribution in Yen So)
+    => Baseline: 3.2, best model ~ 2.81
+- Trial 8:
+    + adding minutes
+    => Baseline: 3.2, best model ~ 2.81
