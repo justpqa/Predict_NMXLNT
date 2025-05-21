@@ -35,3 +35,6 @@ Tried idea:
 - Trial 8:
     + adding minutes
     => Baseline: 3.2, best model ~ 2.81
+- Trial 8:
+    + remove outlier based on scheme regarding increase or decrease 20% larger than rolling mean
+    => Baseline: 3.1, best model ~ 2.72
