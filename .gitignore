@@ -1,2 +1,4 @@
 NMXLNT_df.csv
 *.db
+catboost_info/
+.DS_Store
