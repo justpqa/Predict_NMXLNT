@@ -36,5 +36,13 @@ Tried idea:
     + adding minutes
     => Baseline: 3.2, best model ~ 2.81
 - Trial 8:
-    + remove outlier based on scheme regarding increase or decrease 20% larger than rolling mean
+    + remove outlier based on scheme regarding increase or decrease 20% larger than rolling mean & refine model to get best features
     => Baseline: 3.1, best model ~ 2.72
+- Trial 9:
+    + Change feature selection from actual model feature importance to shap
+    + Extend more type of parameter to finetune (especially regularization parameters)
+    => Baseline 3.1, best model ~ 2.74
+- Trial 10: 
+    + Adding a few more variables (flow out, nh4)
+    + Fixing the sampler 
+    => Baseline 3.1, current best model

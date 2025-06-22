@@ -8,3 +8,5 @@ xgboost
 lightgbm
 catboost
 optuna
+shap
+ipykernel
